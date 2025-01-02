@@ -96,3 +96,13 @@ function takeCommand(message){
         window.open(`https://www.google.com/search?q=${message.replace("shipra","")}`,"_blank")
     }
 }
+// -----------dark and light mode--------------------------
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Toggle theme on button click
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-theme');
+    const currentTheme = body.classList.contains('light-theme') ? '🌞' : '🌙';
+    themeToggle.textContent = currentTheme;
+});

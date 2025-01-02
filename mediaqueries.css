@@ -1,0 +1,35 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    #logo {
+        width: 30vw;
+        max-width: 100px;
+    }
+    #name, #va {
+        font-size: 5vw;
+    }
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80%;
+    }
+    nav ul {
+        gap: 15px;
+    }
+}
+@media (max-width: 480px) {
+    #logo {
+        width: 100vw;
+        max-width: 200px;
+    }
+    h1 {
+        font-size: 4.5vw;
+    }
+    #btn {
+        font-size: 14px;
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Assistant AstraZen</title>
-  <link rel="shortcut icon" href="Assets/robot-assistant.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/robot-assistant.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <img src="Assets/Robot backgroud.png" alt="logo" id="logo">
-    <h1>I'm <span id="name">AstraZen</span>,Your <span id="va">Virtual Assistant</span></h1>
-    <img src="Assets/voice.gif" alt="voice" id="voice">
-    <button id="btn"><img src="Svg/mic.svg" alt="mic"><span id="content"> Click here talk to me</span> </button>
+    <nav>
+        <div class="name">
+            <h1>AstraZen</h1>
+        </div>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <main>
+        <img src="Assets/Robot backgroud.png" alt="logo" id="logo">
+        <h1>I'm <span id="name">AstraZen</span>, Your <span id="va">Virtual Assistant</span></h1>
+        <img src="Assets/voice.gif" alt="voice" id="voice">
+        <button id="btn">
+            <img src="Svg/mic.svg" alt="mic">
+            <span id="content"> Click here to talk to me</span>
+        </button>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 AstraZen Virtual Assistant | Designed by Dhrubaraj Pati</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
