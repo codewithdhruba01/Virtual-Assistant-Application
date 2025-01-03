@@ -7,7 +7,7 @@ function speak(text){
     text_speak.rate=1
     text_speak.pitch=1
     text_speak.volume=1
-    text_speak.lang="hi-IN"
+    text_speak.lang="UK English Male"
     window.speechSynthesis.speak(text_speak)
 }
 
@@ -28,8 +28,6 @@ function wishMe(){
 // window.addEventListener('load',()=>{
 //     wishMe()
 // })
-
-
 
 let speechRecognition= window.SpeechRecognition || window.webkitSpeechRecognition 
 let recognition =new speechRecognition()
@@ -91,9 +89,9 @@ function takeCommand(message){
         speak(date)
       }
     else{
-        let finalText="this is what i found on internet regarding" + message.replace("shipra","") || message.replace("shifra","")
+        let finalText="this is what i found on internet regarding" + message.replace("AstraZen","") || message.replace("AstraZen","")
         speak(finalText)
-        window.open(`https://www.google.com/search?q=${message.replace("shipra","")}`,"_blank")
+        window.open(`https://www.google.com/search?q=${message.replace("AstraZen","")}`,"_blank")
     }
 }
 // -----------dark and light mode--------------------------
