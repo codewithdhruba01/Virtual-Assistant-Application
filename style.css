@@ -127,3 +127,11 @@ footer {
     font-size: 14px;
     border: 5px;
 }
+#preloder{
+    background: #000 url(Assets/loader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

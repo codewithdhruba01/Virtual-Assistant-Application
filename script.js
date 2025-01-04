@@ -104,3 +104,9 @@ themeToggle.addEventListener('click', () => {
     const currentTheme = body.classList.contains('light-theme') ? '🌞' : '🌙';
     themeToggle.textContent = currentTheme;
 });
+
+// ------------------Screenloader--------------
+var loader = document.getElementById("preloder");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
