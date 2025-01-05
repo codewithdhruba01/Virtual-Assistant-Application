@@ -51,8 +51,17 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am virtual assistant AstraZen,created by Dhrubaraj Pati")
-
-    }else if(message.includes("Where are you from")){
+    }
+    else if(message.includes("how are you")){
+        speak("I'm just a program, so I don't have feelings, but I'm here and ready to help! How about you? How are you doing today")
+    }
+    else if(message.includes("good")){
+        speak("Glad to hear that! What's on your mind today")
+    }
+    else if(message.includes("i love you")){
+        speak("Aww, that's so sweet of you to say I’m here to help, chat, and make your day better however I can. What’s on your mind")
+    }
+    else if(message.includes("Where are you from")){
         speak("i am virtual assistant AstraZen,created by Dhrubaraj Pati")
     }
     else if(message.includes("open youtube")){
@@ -71,6 +80,10 @@ function takeCommand(message){
     else if(message.includes("open instagram")){
         speak("opening instagram...")
         window.open("https://instagram.com/","_blank")
+    }
+    else if(message.includes("open google map")){
+        speak("opening google map...")
+        window.open("https://maps.google.com/","_blank")
     }
     else if(message.includes("open calculator")){
         speak("opening calculator..")
