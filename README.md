@@ -140,5 +140,5 @@ This project is open-source and available under the MIT License.
 
 ---
 
-Feel free to fork, contribute, and share! 🎙️
+Feel free to fork, contribute and add new function, and share! 🎙️
 
