@@ -43,9 +43,9 @@
 - **CSS**: For responsive design and styling.
   - Modern design with gradient buttons and animations.
 - **JavaScript**: Adds functionality for:
-  - Speech recognition (using `SpeechRecognition` API).
-  - Text-to-speech synthesis.
-  - Dynamic DOM manipulation based on user input.
+  - Speech Recognition (using `SpeechRecognition` API).
+  - Text-to-Speech synthesis.
+  - Dynamic DOM Manipulation based on user input.
 
 ---
 
