@@ -1,11 +1,9 @@
 # Virtual Assistant AstraZen
+![Font Page](Assets/vercual-assc.jpeg)
 
 **Virtual Assistant AstraZen** is a web-based voice assistant designed to provide an interactive user experience. AstraZen allows users to issue voice commands to perform various actions such as opening websites, retrieving the current time or date, and more. The assistant responds in a friendly and personalized manner.
 
 ---
-
-## Screenshot
-![Font Page](Assets/vercual-assc.jpeg)
 
 ## Features
 
